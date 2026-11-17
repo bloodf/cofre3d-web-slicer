@@ -1,0 +1,7 @@
+{
+  "name": "cofre3d-web-slicer",
+  "private": false,
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": { "stage": "bun run scripts/stage-engine.ts" }
+}

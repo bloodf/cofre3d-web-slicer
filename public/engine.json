@@ -1,0 +1,25 @@
+{
+  "origin": "https://cubbycad.com/slicer/wasm/orca",
+  "bridge": 1,
+  "build": "release",
+  "engine": "orca",
+  "version": "2.5.0",
+  "sha256": {
+    "slicer.mjs": "1635012e95aa0cb77360c98119c9ad783bb22d766fd97cfe26fa91a87cc4ba15",
+    "slicer.wasm": "09eab80bc42ed90422f4182958b7840c985220791e24f12b8cabcf843f0709f2",
+    "slicer.data": "88c64342a54942f41fe1f7f27930357d40a096903984d2d3baf170b12bf18502",
+    "version.json": "4ceb0021277e9018bd11d0f266dfeaa68836ddfff5fcfe52c9bc7fa860f491f9"
+  },
+  "profiles": [
+    {
+      "id": "bbl-a1-0.4-pla",
+      "keys": 751,
+      "bytes": 48720
+    },
+    {
+      "id": "bbl-p1s-0.4-pla",
+      "keys": 751,
+      "bytes": 40271
+    }
+  ]
+}
