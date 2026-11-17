@@ -17,9 +17,229 @@
       "bytes": 48720
     },
     {
+      "id": "bbl-a1-0.2-pla",
+      "keys": 751,
+      "bytes": 48854
+    },
+    {
+      "id": "bbl-a1-0.6-pla",
+      "keys": 751,
+      "bytes": 48833
+    },
+    {
+      "id": "bbl-a1-0.8-pla",
+      "keys": 751,
+      "bytes": 48828
+    },
+    {
       "id": "bbl-p1s-0.4-pla",
       "keys": 751,
       "bytes": 40271
+    },
+    {
+      "id": "bbl-p1s-0.2-pla",
+      "keys": 751,
+      "bytes": 40528
+    },
+    {
+      "id": "bbl-p1s-0.6-pla",
+      "keys": 751,
+      "bytes": 40530
+    },
+    {
+      "id": "bbl-p1s-0.8-pla",
+      "keys": 751,
+      "bytes": 40549
+    },
+    {
+      "id": "bbl-x1c-0.4-pla",
+      "keys": 751,
+      "bytes": 55692
+    },
+    {
+      "id": "bbl-x1c-0.2-pla",
+      "keys": 751,
+      "bytes": 55686
+    },
+    {
+      "id": "bbl-x1c-0.6-pla",
+      "keys": 751,
+      "bytes": 55734
+    },
+    {
+      "id": "bbl-x1c-0.8-pla",
+      "keys": 751,
+      "bytes": 55824
+    },
+    {
+      "id": "bbl-p1p-0.4-pla",
+      "keys": 751,
+      "bytes": 40268
+    },
+    {
+      "id": "bbl-p1p-0.2-pla",
+      "keys": 751,
+      "bytes": 40390
+    },
+    {
+      "id": "bbl-p1p-0.6-pla",
+      "keys": 751,
+      "bytes": 40392
+    },
+    {
+      "id": "bbl-p1p-0.8-pla",
+      "keys": 751,
+      "bytes": 40388
+    },
+    {
+      "id": "bbl-a1-mini-0.4-pla",
+      "keys": 751,
+      "bytes": 47215
+    },
+    {
+      "id": "bbl-a1-mini-0.2-pla",
+      "keys": 751,
+      "bytes": 47257
+    },
+    {
+      "id": "bbl-a1-mini-0.6-pla",
+      "keys": 751,
+      "bytes": 47236
+    },
+    {
+      "id": "bbl-a1-mini-0.8-pla",
+      "keys": 751,
+      "bytes": 47229
+    },
+    {
+      "id": "bbl-h2d-0.4-pla",
+      "keys": 751,
+      "bytes": 61261
+    },
+    {
+      "id": "bbl-h2d-0.2-pla",
+      "keys": 751,
+      "bytes": 59304
+    },
+    {
+      "id": "bbl-h2d-0.6-pla",
+      "keys": 751,
+      "bytes": 61308
+    },
+    {
+      "id": "bbl-h2d-0.8-pla",
+      "keys": 751,
+      "bytes": 59302
+    },
+    {
+      "id": "prusa-mk4-0.25-pla",
+      "keys": 751,
+      "bytes": 28483
+    },
+    {
+      "id": "prusa-mk4-0.6-pla",
+      "keys": 751,
+      "bytes": 28478
+    },
+    {
+      "id": "prusa-mk4-0.8-pla",
+      "keys": 751,
+      "bytes": 28477
+    },
+    {
+      "id": "prusa-mk4-0.4-pla",
+      "keys": 751,
+      "bytes": 28475
+    },
+    {
+      "id": "prusa-core-one-0.25-pla",
+      "keys": 751,
+      "bytes": 30078
+    },
+    {
+      "id": "prusa-core-one-0.3-pla",
+      "keys": 751,
+      "bytes": 30068
+    },
+    {
+      "id": "prusa-core-one-0.4-pla",
+      "keys": 751,
+      "bytes": 30061
+    },
+    {
+      "id": "prusa-core-one-0.5-pla",
+      "keys": 751,
+      "bytes": 30060
+    },
+    {
+      "id": "prusa-core-one-0.6-pla",
+      "keys": 751,
+      "bytes": 30066
+    },
+    {
+      "id": "prusa-core-one-0.8-pla",
+      "keys": 751,
+      "bytes": 30050
+    },
+    {
+      "id": "creality-k1-0.4-pla",
+      "keys": 751,
+      "bytes": 24785
+    },
+    {
+      "id": "creality-k1-0.6-pla",
+      "keys": 751,
+      "bytes": 24786
+    },
+    {
+      "id": "creality-k1-0.8-pla",
+      "keys": 751,
+      "bytes": 24783
+    },
+    {
+      "id": "creality-ender-3-v3-0.4-pla",
+      "keys": 751,
+      "bytes": 24521
+    },
+    {
+      "id": "creality-ender-3-v3-0.6-pla",
+      "keys": 751,
+      "bytes": 24519
+    },
+    {
+      "id": "creality-ender-3-v3-0.8-pla",
+      "keys": 751,
+      "bytes": 24582
+    },
+    {
+      "id": "sovol-sv06-0.4-pla",
+      "keys": 751,
+      "bytes": 27086
+    },
+    {
+      "id": "elegoo-neptune-4-0.4-pla",
+      "keys": 751,
+      "bytes": 25511
+    },
+    {
+      "id": "elegoo-neptune-4-0.2-pla",
+      "keys": 751,
+      "bytes": 25509
+    },
+    {
+      "id": "elegoo-neptune-4-0.6-pla",
+      "keys": 751,
+      "bytes": 25511
+    },
+    {
+      "id": "elegoo-neptune-4-0.8-pla",
+      "keys": 751,
+      "bytes": 25511
+    },
+    {
+      "id": "elegoo-neptune-4-1.0-pla",
+      "keys": 751,
+      "bytes": 25508
     }
   ]
 }

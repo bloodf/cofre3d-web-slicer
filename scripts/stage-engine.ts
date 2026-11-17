@@ -33,15 +33,20 @@ type Vendor = Record<'machine_list' | 'process_list' | 'filament_list', Array<{ 
 
 async function collection(vendorId: string, kind: keyof Vendor): Promise<Map<string, RawPreset>> {
   const vendor = await getJson<Vendor>(`profiles/${vendorId}.json`);
-  const entries = vendor[kind];
   const out = new Map<string, RawPreset>();
-  let next = 0;
-  await Promise.all(Array.from({ length: 8 }, async () => {
-    while (next < entries.length) {
-      const entry = entries[next++]!;
-      out.set(entry.name, await getJson<RawPreset>(`profiles/${vendorId}/${entry.sub_path}`));
-    }
-  }));
+  async function load(name: string): Promise<void> {
+    if (out.has(name)) return;
+    const entry = vendor[kind].find(entry => entry.name === name);
+    if (!entry) return;
+    const raw = await getJson<RawPreset>(`profiles/${vendorId}/${entry.sub_path}`);
+    out.set(name, raw);
+    if (typeof raw.inherits === 'string') await load(raw.inherits);
+    const includes = Array.isArray(raw.include) ? raw.include : raw.include ? [raw.include] : [];
+    for (const include of includes) if (typeof include === 'string') await load(include);
+  }
+  for (const profile of SLICER_PROFILES) {
+    if (profile.vendor === vendorId || vendorId === LIBRARY) await load(kind === 'machine_list' ? profile.printer : kind === 'process_list' ? profile.process : profile.filament);
+  }
   return out;
 }
 
