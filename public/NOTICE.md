@@ -8,6 +8,7 @@ The Cofre3D browser slicer (`/fatiador`) slices STL files on the visitor's devic
 |---|---|---|---|
 | `wasm/orca/slicer.mjs`, `slicer.wasm`, `slicer.data`, `version.json` | OrcaSlicer 2.5.0 compiled to WebAssembly (single-threaded build, bridge ABI 1) | AGPL-3.0-or-later | https://github.com/JoshTheDerf/orcaslicer-wasm (the WebAssembly port) and https://github.com/SoftFever/OrcaSlicer (OrcaSlicer, itself derived from Bambu Studio and PrusaSlicer, https://github.com/slic3r/Slic3r) |
 | `profiles/*.json` | Printer, process and filament presets of the OrcaSlicer 2.5 vendor library resolved into one flat configuration each (Bambu Lab) | AGPL-3.0-or-later (OrcaSlicer profile library) | https://github.com/SoftFever/OrcaSlicer/tree/main/resources/profiles |
+| `src/filamentPresets.json` | Generic OrcaFilamentLibrary presets resolved from the CubbySlicer deployment for material selection | AGPL-3.0-or-later (OrcaSlicer profile library) | https://cubbycad.com/slicer/wasm/orca/profiles/OrcaFilamentLibrary.json |
 | `LICENSE` | GNU Affero General Public License, version 3 | | https://www.gnu.org/licenses/agpl-3.0.html |
 
 The engine package was copied unmodified from the public CubbySlicer deployment (`https://cubbycad.com/slicer/wasm/orca/`),
